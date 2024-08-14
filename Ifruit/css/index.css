@@ -1,0 +1,69 @@
+body {
+    margin: 0; 
+}
+
+.fondo-imagen {
+    background-image: url('../imagenes/composicion-citrica-frutas-tropicales-coloridas-rodajas.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    padding: 0; /* Agrega esta línea */
+}
+
+.contenedor {
+    width: 95%;
+    margin: 0 auto;
+    /* Flexbox */
+    display: flex;
+    /* Flex-direction: row; */
+    flex-wrap: wrap;
+    align-items: stretch;
+    align-content: center;
+}
+
+.centro {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 0; /* Ajusta este valor */
+    margin-bottom: 0; /* Ajusta este valor */
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+
+.footer {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 0; /* Ajusta este valor */
+    margin-bottom: 0; /* Ajusta este valor */
+    flex-wrap: wrap;
+}
+
+.navegador {
+    background: #000; /* Cambia el fondo a color negro sin transparencia */
+    border: 1px solid #000;
+    width: 100%;
+}
+
+
+
+
+
+.boton-verde {
+    display: inline-block;
+    padding: 10px 20px; /* Ajusta el relleno según sea necesario */
+    background-color: #4CAF50; /* Color verde */
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px; /* Ajusta el radio de borde según sea necesario */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Efecto de transición suave */
+}
+
+.boton-verde:hover {
+    background-color: #45a049; /* Cambia el color al pasar el ratón sobre el botón */
+}
+
+

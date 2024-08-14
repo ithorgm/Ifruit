@@ -1,0 +1,204 @@
+body {
+    background-image: url('../imagenes/Fondo_cliente.png');
+    background-size: cover; /* Ajusta la imagen al tamaño de la ventana del navegador */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    background-attachment: fixed; /* Fija la imagen para que no se desplace al hacer scroll */
+    margin: 0; /* Elimina el margen predeterminado del cuerpo */
+}
+
+.contenedor {
+    width: 95%;
+    margin: 0 auto;
+    /* Flexbox */
+    display: flex;
+    /* Flex-direction: row; */
+    flex-wrap: wrap;
+    align-items: stretch;
+    align-content: center;
+}
+
+.navegador {
+    background: rgba(132, 235, 123, 0.8); /* Agrega una transparencia al color de fondo */
+    border: 1px solid rgb(0, 0, 0);
+    width: 100%;
+}
+
+.navegador ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navegador li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navegador li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.navegador li a:hover {
+    text-decoration: none;
+    color: rgb(226, 80, 54);
+}
+
+
+
+.table-container {
+    margin: 20px;
+    text-align: center;
+}
+
+.customer-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.customer-table th, .customer-table td {
+    border: 1px solid #000000;
+    padding: 8px;
+}
+
+.customer-table th {
+    background-color: #f2f2f2;
+}
+
+.table-header {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.table-header h1 {
+    text-align: center;
+    margin: 0;
+}
+
+.nuevo-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+.editar-button, .eliminar-button {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 2px;
+}
+
+/* Estilo para la fila con fondo negro */
+.fila-negra td {
+    background-color: rgb(228, 228, 228);
+    color: rgb(0, 0, 0);
+}
+
+.fila-blanca td {
+    background-color: rgb(180, 180, 180);
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+
+
+
+/* Contenido de css/productos.css */
+
+body {
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+main {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.form-table {
+    width: 100%;
+}
+
+.form-table label {
+    font-weight: bold;
+}
+
+.custom-select,
+.form-control {
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.regresar {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+    padding: .375rem .75rem;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: .25rem;
+}
+
+.regresar:hover {
+    color: #fff;
+    background-color: #495057;
+    border-color: #495057;
+}
